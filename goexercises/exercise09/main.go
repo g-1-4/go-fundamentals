@@ -16,7 +16,7 @@ func main() {
 			"Correct guess" OR
 			"Wrong guess"
 
-		📌 Constraint:
+		Constraint:
 			Only one attempt
 			No loops
 	*/
