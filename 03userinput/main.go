@@ -11,7 +11,8 @@ func main() {
 	fmt.Println(welcomeMessage)
 
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("Enter you rating for our service:")
+	// fmt.Println("Enter your rating for our service:", reader)
+	fmt.Println("Enter your rating for our service:")
 
 	//comma ok || comma err syntax
 	rating, _ := reader.ReadString('\n')
