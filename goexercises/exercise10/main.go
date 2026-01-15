@@ -29,4 +29,16 @@ func main() {
 	} else {
 		fmt.Println("Good Evening")
 	}
+
+	// currentHourString := time.Now().Format("15")
+	// currentHour, _ := strconv.ParseInt(currentHourString, 10, 64)
+	// if(currentHour >=0 && currentHour <= 11) {
+	// 	fmt.Println("Good Morning")
+	// } else if(currentHour >=12 && currentHour <= 16) {
+	// 	fmt.Println("Good Afternoon")
+	// } else {
+	// 	fmt.Println("Good Evening")
+	// }
+
+
 }
