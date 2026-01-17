@@ -1,0 +1,3 @@
+module reverseSlice
+
+go 1.23.3
