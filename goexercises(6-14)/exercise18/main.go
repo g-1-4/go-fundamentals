@@ -25,10 +25,9 @@ func main() {
 	var studentName string
 	fmt.Println("Enter your name")
 	fmt.Scan(&studentName)
-	value, err := studentMap[studentName]
-	if !err {
-		fmt.Println("Student not found")
+	if value, ok := studentMap[studentName]; ok {
+		fmt.Println(value)
 	} else {
-		fmt.Printf("Marks of the %v is %v", studentName, value)
+		fmt.Println("Student not found")
 	}
 }
