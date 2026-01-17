@@ -24,4 +24,8 @@ func main() {
 	// Printing the vegList and its length
 	fmt.Println("The vegList is:", vegList)
 	fmt.Println("The length of vegList is:", len(vegList))
+
+	// Printing individual elements of the array
+	fmt.Println("The first element of fruitList is:", fruitList[0])
+	fmt.Printf("The last element of vegList is: %v\n", vegList[len(vegList)-1])
 }
