@@ -24,9 +24,9 @@ func main() {
 }
 
 func sumN(n int) int {
-	sum := 0
-	for i := 1; i <= n; i++ {
-		sum += i
-	}
-	return sum
+	// sum := 0
+	// for i := 1; i <= n; i++ {
+	// 	sum += i
+	// }
+	return n*(n+1)/2
 }
